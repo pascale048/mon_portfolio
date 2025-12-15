@@ -1,5 +1,5 @@
 body {
-  background-color:lightblue;
+  background-color: #f5f7fa;
   color: #333;
   font-family: 'Segoe UI', sans-serif;
   scroll-behavior: smooth;
@@ -21,6 +21,22 @@ header img {
   border-radius: 50%;
   margin-right: 15px;
   margin-bottom: 0;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  animation: slideIn 1.2s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .navbar {
@@ -51,11 +67,32 @@ main .container {
 }
 
 section {
-  background-color:lightblue;
+  background-color: lightblue;
   border: 1px solid #dce3e9;
   border-radius: 8px;
   padding: 30px;
   margin-bottom: 30px;
+  margin: 0 auto 30px;
+  max-width: 800px;;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#realisations img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+#realisations img:hover {
+  transform: scale(1.05);
+  box-shadox: 0 8px 20px rgba(0,0,0.3);
 }
 
 .card {
@@ -65,6 +102,12 @@ section {
 .btn-primary {
   background-color: #4a90e2;
   border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #357ABD;
+  transform: translateY(-3px);
 }
 
 .btn-secondary {
@@ -82,11 +125,23 @@ footer a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer a:hover {
+  transform: scale (1.2);
+  color: #4a90e2;
 }
 
 @media (max-width: 768px) {
   .navbar-collapse {
     max-width: 300px;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  img[alt="Pascale Cazalis"] {
+    display: none;
   }
 }
