@@ -96,7 +96,7 @@ section {
 }
 
 .card {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .btn-primary {
@@ -137,11 +137,5 @@ footer a:hover {
   .navbar-collapse {
     max-width: 300px;
     margin: 0 auto;
-  }
-}
-
-@media (max-width: 767px) {
-  img[alt="Pascale Cazalis"] {
-    display: none;
   }
 }
