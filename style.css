@@ -18,7 +18,7 @@
 
 body {
   font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-  background: var(--main-bg);
+  background-color: cadetblue;
   color: var(--text-dark);
   line-height: 1.6;
   overflow-x: hidden;
