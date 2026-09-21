@@ -397,6 +397,13 @@ h2 {
   flex-wrap: wrap;
 }
 
+.contact-form input[type="checkbox"] {
+    width: auto;
+    padding: 0;
+    margin-right: 8px;
+    transform: scale(1.2); /* optionnel : rend la case plus visible */
+}
+
 /* Footer */
 .footer {
   background: var(--alt-bg);
