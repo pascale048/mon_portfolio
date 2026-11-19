@@ -1,299 +1,392 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Pascale CAZALIS - BTS SIO SLAM</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio – [Pascale CAZALIS] | BTS SIO SLAM</title>
+<meta name="description" content="Portfolio de [Pascale CAZALIS], étudiante en BTS SIO option SLAM.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <div class="logo">
-      <span>Pascale CAZALIS</span>
-    </div>
-    <nav class="nav">
-      <ul>
-        <li><a href="#presentation">Présentation</a></li>
-        <li><a href="#experiences">Expériences</a></li>
-        <li><a href="#stages">Réalisations</a></li>
-        <li><a href="#competences">Compétences</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#veille">Veille</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="nav-toggle" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-    </nav>
-  </header>
 
-  <!-- Hero -->
-  <section class="hero" id="top">
-    <div class="hero-content">
-      <h1>Étudiante en BTS SIO option SLAM</h1>
-      <p>Portfolio mettant en valeur mes expériences, mes compétences et ma formation au Campus Ermitage.</p>
-      <div class="hero-actions">
-        <a href="#contact" class="btn primary">Me contacter</a>
-        <a href="./assets/documents/cv_pascale_cazalis.pdf" class="btn outline" download>Télécharger mon CV</a>
-      </div>
-    </div>
-  </section>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-web" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></symbol>
+<symbol id="i-code" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></symbol>
+<symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></symbol>
+<symbol id="i-term" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 10l3 2-3 2M12 15h5"/></symbol>
+<symbol id="i-board" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16M15 4v16M6 8h.01M12 8h.01M18 8h.01"/></symbol>
+<symbol id="i-building" viewBox="0 0 24 24"><path d="M4 21V5l8-2v18M12 9l8 2v10M2 21h20M8 8h.01M8 12h.01M8 16h.01M16 14h.01M16 18h.01"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></symbol>
+<symbol id="i-table" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18M3 15h18M9 5v14"/></symbol>
+<symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9L7 7M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+<symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 018 0v3M12 15v2"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14c2.5 0 4 2 4 5"/></symbol>
+<symbol id="i-branch" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="9" r="2"/><path d="M6 7v10M18 11c0 4-6 3-12 6"/></symbol>
+<symbol id="i-cert" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><circle cx="12" cy="10" r="2.5"/><path d="M9.5 21l1.5-4M14.5 21L13 17"/></symbol>
+</defs></svg>
 
-  <!-- Présentation -->
-  <section id="presentation" class="section">
-    <div class="section-inner">
-      <h2>Présentation</h2>
-      <p><span style="display: block; text-align: center;">Je suis actuellement en première année de <strong>BTS Services Informatiques aux Organisations (SIO)</strong>,<br>
-      option <strong>Solutions Logicielles et Applications Métiers (SLAM)</strong>, au <strong>Campus Ermitage</strong>.</span></p>
-      
-      <div class="campus centered">
-        <img src="assets/images/campus_ermitage.jpg" alt="Campus Ermitage">
-        <div class="campus-text">
-          <p>Le <strong>Campus Ermitage</strong>, situé à Agen, propose des formations reconnues Bac +2 et Bac +3 dans différents domaines. 
-            La structure Ermitage Sup' propose, entre autres, le BTS SIO SISR ou SLAM. 
-            Un Bachelor Administrateur Systèmes, réseaux et Cybersécurité sera proposé en septembre 2026.</p><br>
-          <a href="https://campusermitage.fr/nos-formations-post-bac/" target="_blank" class="btn link">Visiter le site</a>
-        </div>
-      </div>
+<header>
+  <nav aria-label="Navigation principale">
+    <a class="logo" href="#accueil">[Pascale C.]<span>.</span></a>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <ul id="menu">
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#formation">Formation</a></li>
+      <li><a href="#entreprises">Entreprises</a></li>
+      <li><a href="#realisations">Réalisations</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#mooc">MOOC</a></li>
+      <li><a href="#veille">Veille</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-      <div class="campus centered">
-        <img src="assets/images/CN47.png" alt="Campus Numérique47">
-        <div class="campus-text">
-          <p>Le <strong>Campus Numérique 47</strong>, créé en 2017 et devenu GIP en 2021, a pour mission d’accompagner les Lot‑et‑Garonnais 
-          face aux enjeux du numérique. 
-          Il s’appuie sur trois axes : 
-          <ul>
-            <li>la formation (du bac à bac+5 grâce à trois organismes installés sur le site),</li> 
-            <li>l’entreprenariat (avec un incubateur accueillant jusqu’à 15 start-up par an),</li> 
-            <li>et l’inclusion numérique (sensibilisation du grand public et ouverture d’un tiers‑lieu)</li>
-          </ul></p><br>
-          <a href="https://www.campusnumerique47.fr/" target="_blank" class="btn link">Visiter le site</a>
-        </div>
-      </div>
-  </section>
-  
-  <section id="formation" class="section">
-    <div class="section-inner">
-        <h2>Formation</h2>
-        <span style="display: block; text-align: center;">
-          BTS SIO option SLAM (depuis septembre 2025)<br>
-          BPJEPS (2014)<br>
-          DEA Histoire (2006)</span>
-    </div>
-  </section>
-
-  <!-- Expériences -->
-  <section id="experiences" class="section">
-    <div class="section-inner">
-      <h2>Expériences professionnelles</h2>
-      <div class="experiences-grid">
-        <article class="experience-card">
-          <h3>Directrice périscolaire – Clairac</h3>
-          <p>Gestion d'une équipe d'animateurs, planification des activités, gestion administrative et suivi budgétaire.</p>
-        </article>
-        <article class="experience-card">
-          <h3>Directrice adjointe – Centre de loisirs de Tonneins</h3>
-          <p>Encadrement des équipes d'animation et organisation des activités pédagogiques auprès des enfants.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Réalisations -->
-  <section id="stages" class="section section-alt">
-    <div class="section-inner">
-      <h2>Réalisations</h2>
-      <div class="stages-grid">
-        <article class="stage-card">
-          <div class="stage-image">
-            <img src="./assets/images/d2com_logo.jpg" alt="D2COM"></a>
-          </div>
-          <div class="stage-content">
-            <h3>D2COM - Agence de communication</h3>
-            <p>Création d'une page web de capture d'email.</p>
-            <ul class="skills-list">
-              <li>
-                <a href="assets/images/D2com.png" target="_blank">Page Web</a>
-              </li>
-              <li>
-                <a href="assets/images/Formspree.png" target="_blank">HTML/CSS</a>
-              </li>
-              <li>
-                <a href="assets/images/Media_query.png" target="_blank">Responsive</a>
-              </li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="stage-card">
-          <div class="stage-image">
-            <img src="./assets/images/Logo-MCIF.png" alt="MCIF">
-          </div>
-          <div class="stage-content">
-            <h3>MCIF - Services informatiques</h3>
-            <p>Création d'un site web pour un EHPAD.</p>
-            <ul class="skills-list">
-              <li>
-                <a href="assets/images/BoisClairay.png" target="_blank">WordPress</a>
-              </li>
-              <li>
-                <a href="assets/images/SEO.png" target="_blank">SEO</a>
-              </li>
-              <li>
-                <a href="assets/images/Trello.png" target="_blank">Trello</a>
-              </li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="stage-card">
-          <div class="stage-image">
-            <a href="https://pruneaux-de-menet.fr/" target="_blank">
-              <img src="assets/images/69ca65845ed70_images_medium.png" alt="Pruneaux-de-Menet" width="60%"></a>
-          </div>
-          <div class="stage-content">
-            <h3>Pruneaux de Menet</h3>
-            <p>Gestion de bases de données</p>
-            <ul class="skills-list">
-              <li>
-                <a href="assets/documents/Macro_VBA.png" target="_blank">Macro Excel</a>
-              </li>
-              <li>
-                <a href="assets/documents/P-EN051-Q Contrôle des masses production V6.xlsm" target="_blank">Document</a>
-              </li>
-            </ul>
-          </div>
-        </article>
-      </div>
-    </div><br>
+<main>
+<!-- PAGE DE GARDE -->
+<section id="accueil">
+  <div class="wrap hero-in">
+    <h1>[Pascale CAZALLIS]<br><em>développeuse</em> en devenir</h1>
+    <p class="hero-sub">Étudiant en BTS SIO option SLAM, en alternance. Un nouveau métier, choisi et construit pas à pas.</p>
+    <p class="hero-tag"><span id="typed"></span><span class="cursor">&nbsp;</span></p>
     <div class="hero-actions">
-      <a href="assets/documents/Pascale Cazalis - fiche E5.pdf" target="_blank" class="btn outline">Fiche E5</a>
-      <a href="" target="_blank" class="btn outline">Fiche E6</a>
-      <a href="" target="_blank" class="btn outline">Parcours de certification</a>
+      <a class="btn" href="#realisations">Voir mes réalisations</a>
+      <a class="btn ghost" href="#contact">Me contacter</a>
+      <a class="btn ghost" href="assets/documents/cv.pdf" target="_blank" rel="noopener" download>Télécharger mon CV</a>
+    </div>
   </div>
-  </section>
+</section>
 
-  <!-- Compétences -->
-  <section id="competences" class="section section-alt">
-    <div class="section-inner">
-      <h2>Compétences</h2>
-      <div class="skills-grid">
-        <div class="skill-group">
-          <h3>Développement</h3>
-          <ul class="skills-list">
-            <li>HTML / CSS / JavaScript</li>
-            <li>PHP</li>
-            <li>Bootstrap</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <h3>Outils</h3>
-          <ul class="skills-list">
-            <li>Git / GitHub</li>
-            <li>VS Code</li>
-            <li>WordPress</li>
-          </ul>
-        </div>
-        <div class="skill-group">
-          <h3>Transversales</h3>
-          <ul class="skills-list">
-            <li>Fiabilité</li>
-            <li>Autonomie</li>
-            <li>Rigueur</li>
-          </ul>
-        </div>
+<!-- A PROPOS -->
+<section id="apropos">
+  <div class="wrap about">
+    <div>
+      <h2>À propos de moi</h2>
+      <p class="lead">Je suis en BTS SIO option SLAM (Solutions Logicielles et Applications Métiers), après une reconversion professionnelle.</p>
+      <p>Ancienne directrice de centre de loisirs et de périscolaire, j’ai fait suite à un licenciement économique le choix de me reconvertir dans le développement. 
+        Mon ancien métier m’a appris la rigueur, l’autonomie et le travail en équipe.</p>
+      <p>Aujourd'hui, j'aime automatiser, structurer et rendre les outils plus simples pour ceux qui les utilisent.</p>
+    </div>
+    <dl class="facts">
+      <div><dt>Formation</dt><dd>BTS SIO option SLAM, 2<sup>e</sup> année</dd></div>
+      <div><dt>Parcours</dt><dd>Reconversion professionnelle</dd></div>
+      <div><dt>Rythme</dt><dd>Alternance en entreprise</dd></div>
+      <div><dt>Savoir-être</dt><dd>Autonomie, rigueur, curiosité</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- FORMATION -->
+<section id="formation" class="alt">
+  <div class="wrap">
+    <h2>Ma formation</h2>
+    <div class="two">
+      <div class="block" id="ermitage">
+        <img src="assets/images/campus-ermitage.png" alt="Façade du Campus Ermitage à Agen">
+        <!-- À REMPLACER : adresse du site du campus Ermitage -->
+        <h3><a class="h-link" href="https://postbac-campusermitage.com/" target="_blank" rel="noopener">Campus Ermitage, Agen</a></h3>
+        <p>Le campus propose plusieurs formations post-bac en informatique.
+        On y trouve notamment le BTS SIO, avec les options SISR (infrastructures, systèmes et réseaux) et SLAM (solutions logicielles et applications métiers).
+        Il propose aussi le Bachelor AIS (Administrateur d’Infrastructures Sécurisées).</p>
+        <ul>
+          <li>Lieu : Agen (47)</li>
+        </ul>
+      </div>
+      <div class="block" id="campus-numerique">
+        <img src="assets/images/campus-numérique.jpg" alt="Façade du campus Numérique à Agen">
+        <!-- À REMPLACER : adresse du site du campus numérique -->
+        <h3><a class="h-link" href="https://www.campusnumerique47.fr/" target="_blank" rel="noopener">Campus numérique</a></h3>
+        <p>Le Campus Numérique 47 repose sur trois piliers : la formation, l’entrepreneuriat et l’inclusion numérique.
+        Il accueille trois organismes de formation, de bac à bac+5, dont le Campus Ermitage : c’est là que se déroulent mes cours de BTS SIO.
+        Il accompagne aussi des start-up dans son incubateur et sensibilise le grand public au numérique, notamment grâce à un tiers-lieu.</p>
+        <ul>
+          <li>Lieu : Agen (47)</li>
+        </ul>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!--Certifications-->
-    <section id="certifications" class="section section-alt">
-    <div class="section-inner">
-      <h2>Certifications</h2>
-      <div class="stages-grid">
-        <article class="stage-card">
-          <div class="stage-image">
-            <a href="assets/documents/Certificat  EBIOS - Cazalis Pascale - 02032026.pdf" target="_blank">
-              <img src="assets/images/télécharger.webp" alt="EBIOS"></a>
-          </div>
-        </article>
+<!-- ENTREPRISES -->
+<section id="entreprises">
+  <div class="wrap">
+    <!-- Pour chaque entreprise : modifie le lien (href) et remplace le texte « Logo à ajouter » par ton image de logo (voir le commentaire dans chaque encart) -->
+    <h2>Les entreprises qui m'ont accueillie</h2>
+    <ol class="timeline">
+      <li>
+        <div class="company"><a class="logo-slot" href="https://d2com.fr" target="_blank" rel="noopener" aria-label="Site web D2COM"><img src="assets/images/d2com.webp" alt="Logo D2COM"></a>
+        <div>
+<p class="when">Stage 1 · [27 oct - 14 nov 2025]</p>
+        <h3>D2COM</h3>
+        <p>Agence de communication au service de la notoriété et du développement des entreprises.</p>
+        <p>Le Passage d'Agen (47)</p></div></div>
+      </li>
+      <li>
+        <div class="company"><a class="logo-slot" href="https://mcif.fr" target="_blank" rel="noopener" aria-label="Site web MCIF"><img src="assets/images/mcif.png" alt="Logo MCIF"></a>
+        <div>
+<p class="when">Stage 2 · [15 déc 2025 - 27 fév 2026]</p>
+        <h3>MCIF</h3>
+        <p>Société informatique spécialisée dans les logiciels de gestion, les réseaux et la cybersécurité.</p>
+        <p>Agen (47)</p></div></div>
+      </li>
+      <li class="now">
+        <div class="company"><a class="logo-slot" href="https://pruneaux-de-menet.fr/" target="_blank" rel="noopener" aria-label="Site web Pruneaux de Menet"><img src="assets/images/pruneaux_de_menet.webp" alt="Logo Pruneaux de Menet"></a>
+        <div>
+<p class="when">Stage 3 · [23 mars - 24 avril 2026], puis Alternance · depuis [01 juin 2026]</p>
+        <h3>Pruneaux de Menet<span class="badge">en cours</span></h3>
+        <p>Transformateur de pruneaux d’Agen et de fruits secs.</p>
+        <p>Villeneuve-sur-Lot (47)</p></div></div>
+      </li>
+    </ol>
+  </div>
+</section>
 
-        <article class="stage-card">
-          <div class="stage-image">
-           <a href="assets/documents/Pascale_Cazalis_attestation_SecNumAcademie.pdf" target="_blank">
-              <img src="assets/images/secnumacademie.jpeg" alt="SecNumAcademie"></a> 
-          </div>
-        </article>
+<!-- REALISATIONS -->
+<section id="realisations" class="alt">
+  <div class="wrap">
+    <h2>Mes réalisations</h2>
 
-        <article class="stage-card">
-          <div class="stage-image">
-           <a href="assets/documents/attestation_cnil.pdf" target="_blank">
-              <img src="assets/images/cnil.webp" alt="CNIL"></a> 
-          </div>
-        </article>
+    <article class="project">
+      <div class="proj-head"><span class="tile"><svg class="i" aria-hidden="true"><use href="#i-web"/></svg></span><div><h3>Page de capture d'e-mails</h3><p class="meta">Stage 1 · [Entreprise 1]</p></div></div>
+      <dl class="pj">
+        <dt>Contexte</dt><dd>[Contexte : pourquoi l'entreprise avait besoin de cette page.]</dd>
+        <dt>Objectif</dt><dd>Objectif : collecter des adresses e-mail de façon simple et protégée.</dd>
+        <dt>Ce que j'ai fait</dt><dd><ul><li>Page codée from scratch en HTML, CSS et JavaScript vanilla</li><li>Envoi du formulaire via Formspree</li><li>Protection anti-spam avec reCAPTCHA</li></ul></dd>
+        <dt>Résultat</dt><dd>Résultat : page en ligne, nombre d'inscriptions, retour de l'entreprise…</dd>
+      </dl>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Formspree</span><span>reCAPTCHA</span></div>
+      <div class="links"><a class="btn line" href="https://ton-pseudo.github.io/page-capture-email/" target="_blank" rel="noopener">Voir la page en ligne</a><a class="btn line" href="https://github.com/ton-pseudo/page-capture-email" target="_blank" rel="noopener">Code source</a></div>
+    </article>
 
-      </div>
+    <article class="project hot">
+      <div class="proj-head"><span class="tile hot"><svg class="i" aria-hidden="true"><use href="#i-globe"/></svg></span><div><h3>Deux sites vitrines WordPress</h3><p class="meta">Stage 2 · [Entreprise 2]</p></div></div>
+      <dl class="pj">
+        <dt>Contexte</dt><dd>[Contexte : commandes de deux clients, un EHPAD et un micro-entrepreneur.]</dd>
+        <dt>Objectif</dt><dd>[Objectif : donner une présence en ligne à chaque client et la rendre visible dans les moteurs de recherche.]</dd>
+        <dt>Ce que j'ai fait</dt><dd><ul><li>Contact avec les clients et rédaction du cahier des charges</li><li>Réalisation des deux sites avec WordPress et Elementor</li><li>Suivi du projet avec Trello</li><li>Optimisation du référencement (SEO)</li></ul></dd>
+        <dt>Résultat</dt><dd>[Résultat : sites livrés et en ligne, retours des clients…]</dd>
+      </dl>
+      <div class="tags"><span>WordPress</span><span>Elementor</span><span>SEO</span><span>Trello</span><span>Cahier des charges</span></div>
+      <div class="links"><a class="btn line" href="https://site-ehpad.fr" target="_blank" rel="noopener">Site de l'EHPAD</a><a class="btn line" href="https://site-microentrepreneur.fr" target="_blank" rel="noopener">Site du micro-entrepreneur</a><a class="btn line" href="assets/documents/cahier-des-charges.pdf" target="_blank" rel="noopener">Cahier des charges</a><a class="btn line" href="https://trello.com/b/xxxxxxxx" target="_blank" rel="noopener">Tableau Trello</a></div>
+    </article>
+
+    <article class="project">
+      <div class="proj-head"><span class="tile"><svg class="i" aria-hidden="true"><use href="#i-db"/></svg></span><div><h3>Chaîne d'étiquetage CoLOS</h3><p class="meta">Stage 3 puis alternance · [Entreprise d'alternance]</p></div></div>
+      <dl class="pj">
+        <dt>Contexte</dt><dd>[Contexte : étiquetage des produits, saisie manuelle à l'origine.]</dd>
+        <dt>Objectif</dt><dd>Choisir un produit et la matrice d'étiquette se remplit toute seule.</dd>
+        <dt>Ce que j'ai fait</dt><dd><ul><li>Mise à jour de la base de données de produits sous Excel (stage 3)</li><li>Création de la connexion ODBC et liaison de la base au logiciel CoLOS</li><li>Matrice d'étiquette dont les champs sont reliés à la base</li><li>Choix du produit dans une liste déroulante : la matrice récupère automatiquement ses données</li></ul></dd>
+        <dt>Résultat</dt><dd>[Résultat : gain de temps, erreurs de saisie évitées…]</dd>
+      </dl>
+      <div class="tags"><span>Excel</span><span>ODBC</span><span>CoLOS</span><span>BDD</span></div>
+      <div class="links"><a class="btn line" href="assets/documents/schema-etiquettes.pdf" target="_blank" rel="noopener">Schéma d'architecture</a></div>
+    </article>
+
+    <article class="project hot">
+      <div class="proj-head"><span class="tile hot"><svg class="i" aria-hidden="true"><use href="#i-gear"/></svg></span><div><h3>Installation d'une imprimante Zebra ZT411</h3><p class="meta">Alternance · [Entreprise d'alternance]</p></div></div>
+      <dl class="pj">
+        <dt>Contexte</dt><dd>[Contexte : nouvelle imprimante d'étiquettes à mettre en service.]</dd>
+        <dt>Objectif</dt><dd>Raccorder l'imprimante au réseau de l'entreprise et la rendre utilisable.</dd>
+        <dt>Ce que j'ai fait</dt><dd><ul><li>Raccordement au réseau de l'entreprise en Ethernet</li><li>Réglementation européenne RED (cybersécurité des équipements radio) : imprimante verrouillée par un mot de passe</li><li>Connexion directe au PC, configuration manuelle de l'adresse IP pour les placer sur le même réseau, puis accès à l'interface web pour débloquer l'accès</li><li>Échanges avec les services techniques</li></ul></dd>
+        <dt>Résultat</dt><dd>[Résultat : imprimante opérationnelle, procédure documentée.]</dd>
+      </dl>
+      <div class="tags"><span>Zebra ZT411</span><span>Réseau</span><span>RED</span></div>
+      <div class="links"><a class="btn line" href="assets/documents/procedure-zebra.pdf" target="_blank" rel="noopener">Procédure d'installation</a></div>
+    </article>
+
+    <article class="project">
+      <div class="proj-head"><span class="tile"><svg class="i" aria-hidden="true"><use href="#i-table"/></svg></span><div><h3>Contrôle des masses de production</h3><p class="meta">Alternance · [Entreprise d'alternance]</p></div></div>
+      <dl class="pj">
+        <dt>Contexte</dt><dd>Fichier Excel utilisé sur une ligne de production.</dd>
+        <dt>Objectif</dt><dd>Supprimer la saisie manuelle des poids et les erreurs.</dd>
+        <dt>Ce que j'ai fait</dt><dd><ul><li>Poids saisis dans le fichier grâce à la balance PRECIA MOLEN</li><li>Macro VBA : archivage des données dans une autre feuille, remplissage automatique de la feuille de statistiques, effacement des données saisies</li></ul></dd>
+        <dt>Résultat</dt><dd>[Résultat : gain de temps, fiabilité des données…]</dd>
+      </dl>
+      <div class="tags"><span>VBA</span><span>Excel</span></div>
+      <div class="links"><a class="btn line" href="assets/documents/controle-masses.pdf" target="_blank" rel="noopener">Voir la présentation</a><a class="btn line" href="code/controle-masses.bas" target="_blank" rel="noopener">Code</a></div>
+    </article>
+
+    <article class="project hot">
+      <div class="proj-head"><span class="tile hot"><svg class="i" aria-hidden="true"><use href="#i-board"/></svg></span><div><h3>Planning de saisie des heures</h3><p class="meta">Alternance · [Entreprise d'alternance]</p></div></div>
+      <dl class="pj">
+        <dt>Contexte</dt><dd>Suivi des heures de l'équipe.</dd>
+        <dt>Objectif</dt><dd>Automatiser les récapitulatifs hebdomadaires et mensuels.</dd>
+        <dt>Ce que j'ai fait</dt><dd><ul><li>Création sous Excel d'un planning de saisie des heures de l'équipe</li><li>Automatisation des récapitulatifs hebdomadaires et mensuels</li><li>Macro VBA : archivage du planning et des récapitulatifs dans un seul classeur, puis remise à zéro du tableau de bord</li></ul></dd>
+        <dt>Résultat</dt><dd>[Résultat : gain de temps, erreurs évitées…]</dd>
+      </dl>
+      <div class="tags"><span>VBA</span><span>Excel</span></div>
+      <div class="links"><a class="btn line" href="assets/documents/planning.pdf" target="_blank" rel="noopener">Voir la présentation</a><a class="btn line" href="code/planning.bas" target="_blank" rel="noopener">Code</a></div>
+    </article>
+
+    <article class="project">
+      <div class="proj-head"><span class="tile"><svg class="i" aria-hidden="true"><use href="#i-branch"/></svg></span><div><h3>État des commandes</h3><p class="meta">Alternance · [Entreprise d'alternance]</p></div></div>
+      <dl class="pj">
+        <dt>Contexte</dt><dd>[Contexte : deux fichiers Excel à consulter séparément.]</dd>
+        <dt>Objectif</dt><dd>[Objectif : suivre l'état des commandes sans recopier les données.]</dd>
+        <dt>Ce que j'ai fait</dt><dd><ul><li>Liaison de deux documents Excel grâce à Power Query</li></ul></dd>
+        <dt>Résultat</dt><dd>[Résultat : données mises à jour automatiquement…]</dd>
+      </dl>
+      <div class="tags"><span>Power Query</span><span>Excel</span></div>
+      <div class="links"><a class="btn line" href="assets/documents/etat-commandes.pdf" target="_blank" rel="noopener">Voir la présentation</a><a class="btn line" href="code/etat-commandes.pq" target="_blank" rel="noopener">Code</a></div>
+    </article>
+
+    <article class="project hot">
+      <div class="proj-head"><span class="tile hot"><svg class="i" aria-hidden="true"><use href="#i-target"/></svg></span><div><h3>Gestion des stocks<span class="badge">à venir</span></h3><p class="meta">Alternance · [Entreprise d'alternance]</p></div></div>
+      <dl class="pj">
+        <dt>Contexte</dt><dd>[Contexte : inventaires actuels.]</dd>
+        <dt>Objectif</dt><dd>Simplifier les inventaires.</dd>
+        <dt>Ce que j'ai fait</dt><dd><ul><li>Création d'une base de données avec une interface pour la gestion des stocks</li></ul></dd>
+        <dt>Résultat</dt><dd>[Résultat attendu.]</dd>
+      </dl>
+      <div class="tags"><span>BDD</span><span>Interface</span></div>
+    </article>
+
+    <article class="project">
+      <div class="proj-head"><span class="tile"><svg class="i" aria-hidden="true"><use href="#i-code"/></svg></span><div><h3>Site vitrine POC avec Symfony</h3><p class="meta">En formation · projet d'équipe</p></div></div>
+      <dl class="pj">
+        <dt>Contexte</dt><dd>Projet d'équipe en formation : site vitrine (POC) avec Symfony, PHP, base de données et cahier des charges.</dd>
+        <dt>Objectif</dt><dd>[Objectif du site et de la preuve de concept.]</dd>
+        <dt>Ce que j'ai fait</dt><dd><ul><li>GitHub Project : organisation du travail de l'équipe</li><li>Dashboard admin</li><li>Page admin pour modifier les textes du site</li><li>Page admin d'accès aux membres et à leurs simulations de voyages</li><li>Mise à jour du cahier des charges</li></ul></dd>
+        <dt>Résultat</dt><dd>[Résultat : fonctionnalités livrées, retour du formateur…]</dd>
+      </dl>
+      <div class="tags"><span>Symfony</span><span>PHP</span><span>BDD</span><span>GitHub Project</span><span>Travail en équipe</span></div>
+      <div class="links"><a class="btn line" href="https://site-symfony.exemple.fr" target="_blank" rel="noopener">Voir le site Symfony</a><a class="btn line" href="https://github.com/ton-pseudo/projet-symfony" target="_blank" rel="noopener">Code sur GitHub</a></div>
+    </article>
+
+    <div class="links fiches">
+      <a class="btn dark" href="assets/documents/fiche-E5.pdf" target="_blank" rel="noopener">Consulter ma fiche E5</a>
+      <a class="btn dark" href="assets/documents/fiche-E6.pdf" target="_blank" rel="noopener">Consulter ma fiche E6</a>
     </div>
-    </section>
+  </div>
+</section>
 
-  <!-- Veille -->
-  <section id="veille" class="section">
-    <div class="section-inner">
-      <h2>Veille technologique</h2>
-      <p>La veille informatique consiste à suivre régulièrement les évolutions technologiques
-        pour rester à jour et anticiper les changements.
-      </p><br>
-      <p><strong>Surveillance numérique</strong> : Evolution des pratiques / Impacts sur les libertés et la réglementation</p>
-      <p><strong>Intelligence artificielle</strong> : Comprendre les usages / Nouveaux outils / Enjeux éthiques et réglementaires</p>
-      <div class="veille-grid">
-        <div class="veille-item centered">
-          <a href="https://www.laquadrature.net/2026/06/17/loi-ripost-quand-nunez-attaque-les-lapi-ou-la-surveillance-massive-des-deplacements/" target="_blank">
-            <img src="assets/images/Quadrature.webp" alt="La Quadrature du Net">
-          </a>
-        </div>
-        <div class="veille-item centered">
-          <a href="https://www.actuia.com/actualite/barometre-impact-ai-pres-de-trois-quarts-des-salaries-francais-jugent-necessaire-de-reguler-le-developpement-de-lia/" target="_blank">
-            <img src="assets/images/actuia.webp" alt="ActuIA">
-          </a>
-        </div>
-      </div>
+<!-- COMPETENCES -->
+<section id="competences" class="tint">
+  <div class="wrap">
+    <h2>Mes compétences</h2>
+    <div class="skills">
+      <article class="skill">
+        <header><span class="tile"><svg class="i" aria-hidden="true"><use href="#i-web"/></svg></span><h3>Développement web</h3></header>
+        <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li><li>reCAPTCHA</li></ul>
+      </article>
+      <article class="skill">
+        <header><span class="tile hot"><svg class="i" aria-hidden="true"><use href="#i-code"/></svg></span><h3>Back-end</h3></header>
+        <ul class="chips"><li>PHP</li><li>Symfony</li><li>API</li><li>CRUD</li></ul>
+      </article>
+      <article class="skill">
+        <header><span class="tile"><svg class="i" aria-hidden="true"><use href="#i-db"/></svg></span><h3>Bases de données</h3></header>
+        <ul class="chips"><li>MySQL</li><li>phpMyAdmin</li><li>MCD / MLD</li></ul>
+      </article>
+      <article class="skill">
+        <header><span class="tile hot"><svg class="i" aria-hidden="true"><use href="#i-term"/></svg></span><h3>Scripts & automatisation</h3></header>
+        <ul class="chips"><li>Python</li><li>PowerShell</li><li>Bash</li><li>VBA</li><li>Power Query</li><li>Excel</li></ul>
+      </article>
+      <article class="skill">
+        <header><span class="tile"><svg class="i" aria-hidden="true"><use href="#i-board"/></svg></span><h3>Outils & gestion de projet</h3></header>
+        <ul class="chips"><li>GitHub</li><li>GitHub Project</li><li>Trello</li></ul>
+      </article>
+      <article class="skill">
+        <header><span class="tile"><svg class="i" aria-hidden="true"><use href="#i-table"/></svg></span><h3>Données & intégration</h3></header>
+        <ul class="chips"><li>CSV</li><li>ODBC</li><li>Restructuration de données</li></ul>
+      </article>
+      <article class="skill">
+        <header><span class="tile hot"><svg class="i" aria-hidden="true"><use href="#i-gear"/></svg></span><h3>Systèmes, réseau & matériel</h3></header>
+        <ul class="chips"><li>Installation de matériel</li><li>Paramétrage réseau</li><li>Gestion d'incidents</li><li>Cybersécurité (RED)</li></ul>
+      </article>
+      <article class="skill">
+        <header><span class="tile hot"><svg class="i" aria-hidden="true"><use href="#i-globe"/></svg></span><h3>CMS & référencement</h3></header>
+        <ul class="chips"><li>WordPress</li><li>Elementor</li><li>SEO</li></ul>
+      </article>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Contact -->
-  <section id="contact" class="section section-alt">
-    <div class="section-inner">
-      <h2>Contact</h2>
-      <form class="contact-form">
-        <input type="text" placeholder="Nom / Prénom" required>
-        <input type="email" placeholder="Email" required>
-        <textarea placeholder="Votre message" rows="4" required></textarea>
-        <div class="form-group consent">
-          <label>
-            <input type="checkbox" name="rgpd" required>
-            J’accepte que mes données personnelles soient utilisées uniquement dans le cadre de ce formulaire.
-          </label>
-        </div>
-
-        <button type="submit" class="btn primary">Envoyer</button>
-      </form>
-      <div class="contact-links">
-        <a href="https://github.com/pascale048" target="_blank" class="btn link">GitHub</a>
-        <a href="https://linkedin.com/in/pascalecazalis" target="_blank" class="btn link">LinkedIn</a>
-      </div>
+<!-- MOOC -->
+<section id="mooc">
+  <div class="wrap">
+    <h2>Mes MOOC</h2>
+    <p class="lead" style="margin-bottom:1.8rem">Des formations en ligne suivies pour comprendre la sécurité et la protection des données, des sujets qui concernent tout développeur.</p>
+    <div class="mooc">
+      <article>
+        <div class="art"><svg class="i" aria-hidden="true"><use href="#i-shield"/></svg><img src="assets/images/logo-secnumacademie.png" alt="Logo SecNumacadémie" onerror="this.remove()"></div>
+        <h3>SecNumacadémie</h3>
+        <p>Le MOOC de l'ANSSI sur les bases de la sécurité numérique : gestion des mots de passe, sécurité des appareils et du réseau, bonnes pratiques.</p>
+        <a class="attest" href="assets/documents/attestation-secnumacademie.pdf" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-cert"/></svg>Voir l'attestation</a>
+      </article>
+      <article>
+        <div class="art"><svg class="i" aria-hidden="true"><use href="#i-target"/></svg><img src="assets/images/logo-ebios-rm.png" alt="Logo EBIOS Risk Manager" onerror="this.remove()"></div>
+        <h3>EBIOS Risk Manager</h3>
+        <p>La méthode d'analyse des risques numériques recommandée par l'ANSSI : identifier les menaces, évaluer les risques, choisir des mesures.</p>
+        <a class="attest" href="assets/documents/attestation-ebios-rm.pdf" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-cert"/></svg>Voir l'attestation</a>
+      </article>
+      <article>
+        <div class="art"><svg class="i" aria-hidden="true"><use href="#i-lock"/></svg><img src="assets/images/logo-cnil.png" alt="Logo CNIL" onerror="this.remove()"></div>
+        <h3>CNIL</h3>
+        <p>La protection des données personnelles et le RGPD : principes, droits des personnes et obligations d'un développeur.</p>
+        <a class="attest" href="assets/documents/attestation-cnil.pdf" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-cert"/></svg>Voir l'attestation</a>
+      </article>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p><strong> 2026 Pascale CAZALIS - BTS SIO SLAM</strong></p>
-  </footer>
+<!-- VEILLE -->
+<section id="veille" class="alt">
+  <div class="wrap">
+    <h2>Ma veille technologique</h2>
+    <div class="veille-grid">
+      <div>
+        <svg class="veille-art" viewBox="0 0 340 180" role="img" aria-label="Illustration : un magazine de cybersécurité et des personnes au centre du numérique">
+          <rect x="10" y="12" width="130" height="156" rx="8" fill="currentColor"/>
+          <rect x="26" y="30" width="64" height="10" rx="3" fill="var(--accent)"/>
+          <rect x="26" y="52" width="98" height="6" rx="3" fill="#fff" opacity=".7"/>
+          <rect x="26" y="66" width="80" height="6" rx="3" fill="#fff" opacity=".7"/>
+          <rect x="26" y="98" width="98" height="52" rx="6" fill="#fff" opacity=".18"/>
+          <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <use href="#i-users" x="170" y="20" width="110" height="110"/>
+            <use href="#i-shield" x="262" y="96" width="60" height="60" stroke="var(--accent)" stroke-width="1.8"/>
+          </g>
+          <path d="M150 90h100" stroke="var(--line)" stroke-width="2" stroke-dasharray="4 6" opacity="0"/>
+        </svg>
+        <p class="lead">Je m'intéresse surtout aux <strong>conséquences humaines de l'informatique</strong> : cybersécurité, données personnelles, libertés, santé mentale, inégalités numériques. Derrière chaque système, il y a des personnes.</p>
+        <p>Je consulte ces sources régulièrement, notamment <!-- À REMPLACER : adresse de Cyber-IT --><a href="https://www.exemple.fr/cyber-it" target="_blank" rel="noopener">Cyber-IT</a>, un magazine de cybersécurité et d'IT.</p>
+        <p><strong>Ma méthode :</strong> [flux RSS, fréquence, outil d'organisation, exemple d'un article récent qui t'a marqué].</p>
+      </div>
+      <ul class="sources">
+        <li><a href="https://www.exemple.fr/cyber-it" target="_blank" rel="noopener">Cyber-IT</a><small>Magazine de cybersécurité et d'IT</small></li>
+        <li><a href="https://www.miscmag.com" target="_blank" rel="noopener">MISC Magazine</a><small>Magazine de référence en cybersécurité et sécurité informatique</small></li>
+        <li><a href="https://www.cyber.gouv.fr" target="_blank" rel="noopener">ANSSI</a><small>Guides, alertes et menaces, par l'agence nationale</small></li>
+        <li><a href="https://www.cybermalveillance.gouv.fr" target="_blank" rel="noopener">Cybermalveillance.gouv.fr</a><small>Les cyberattaques vues côté victimes et prévention</small></li>
+        <li><a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a><small>Données personnelles, vie privée et libertés</small></li>
+        <li><a href="https://fing.org" target="_blank" rel="noopener">Fing</a><small>Think tank sur les usages et les effets sociaux du numérique</small></li>
+        <li><a href="https://www.laquadrature.net" target="_blank" rel="noopener">La Quadrature du Net</a><small>Libertés et droits fondamentaux à l'ère numérique</small></li>
+        <li><a href="https://next.ink" target="_blank" rel="noopener">Next</a><small>Actualité du numérique et de la société</small></li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-  <button class="scroll-top" aria-label="Revenir en haut">↑</button>
+<!-- CONTACT -->
+<section id="contact" aria-label="Contact">
+  <div class="wrap">
+    <p class="lead">Une question, une opportunité de stage ou d'emploi ? Écris-moi, je réponds avec plaisir.</p>
+    <div class="hero-actions">
+      <a class="btn" id="mail-btn" href="#contact" data-u="ton.email" data-d="exemple.fr" data-s="Contact depuis ton portfolio" rel="nofollow">M'envoyer un e-mail</a>
+      <a class="btn ghost" href="https://github.com/ton-pseudo" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/ton-profil" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="assets/documents/cv.pdf" target="_blank" rel="noopener" download>Télécharger mon CV</a>
+    </div>
+  </div>
+</section>
+</main>
 
-  <script src="script.js"></script>
+<footer>© <span id="year"></span> [Prénom Nom] · Portfolio BTS SIO option SLAM</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>
-
-
